@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="eyebrow">// Software engineer · Bengaluru / Chennai</div>
         <h1 className="hero-title">Building<br />systems for<br /><span>scale.</span></h1>
         <p className="hero-copy">I’m Tharun R S. I design and ship dependable backend services, distributed platforms, and tools that make engineers faster.</p>
-        <div className="hero-actions"><a className="btn btn-secondary" href="/resume.pdf" download>Get resume ↓</a></div>
+        <div className="hero-actions"><a className="btn btn-secondary" href="/rstharun/resume.pdf" download>Get resume ↓</a></div>
       </div>
       <div className="orbital" aria-label="Rotating technology system visual">
         <div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="orbit orbit-three" />
