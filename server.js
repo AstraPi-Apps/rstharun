@@ -3,10 +3,9 @@ const path = require('path')
 const app = express()
 const PORT = process.env.PORT || 8080
 
-const basePath = '/rstharun'
-app.use(basePath, express.static(path.join(__dirname, 'dist')))
+app.use(express.static(path.join(__dirname, 'dist')))
 
-app.get(`${basePath}/*`, (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'))
 })
 
