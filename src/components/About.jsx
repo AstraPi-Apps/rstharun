@@ -1,0 +1,3 @@
+import React from 'react'
+const skills = ['Python', 'Java', 'Golang', 'Kotlin', 'React', 'Kubernetes', 'Docker', 'Cassandra', 'Kafka', 'AWS']
+export default function About() { return <section className="section" id="about"><div className="profile"><div className="reveal"><div className="eyebrow">System profile</div><h2 className="section-title">An engineer<br />at the core.</h2></div><div className="reveal"><p className="profile-copy">I like work that holds up under real pressure: backend services that stay clear, containerized platforms that stay manageable, and developer tools that remove friction instead of adding it.</p><div className="skill-stream">{skills.map(skill => <span key={skill}>{skill}</span>)}</div></div></div></section> }

@@ -1,0 +1,2 @@
+import React from 'react'
+export default function Footer() { return <footer className="page footer"><span>© {new Date().getFullYear()} THARUN R S</span><div className="footer-links"><a href="https://github.com/tharun-rs" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/in/tharun-r-s-3b8985229/" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="mailto:rstharun11@gmail.com">EMAIL ↗</a></div></footer> }
