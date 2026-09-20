@@ -10,7 +10,7 @@ const projects = [
   {
     code: '02 / MOBILE+WEB', title: 'Chennai Hoopers', desc: 'A work-in-progress academy management platform with Android and web applications, backed by AWS infrastructure. Built for a Hula Hoop academy.',
     details: 'A single operational system for an academy: Android and web interfaces are paired with cloud infrastructure to keep day-to-day management simple as the academy grows.',
-    tags: ['Kotlin', 'AWS', 'Android', 'React'], icons: [{ label: 'Kotlin', path: 'kotlin/kotlin-original.svg' }, { label: 'AWS', path: 'amazonwebservices/amazonwebservices-plain-wordmark.svg' }, { label: 'Android', path: 'android/android-original.svg' }, { label: 'React', path: 'react/react-original.svg' }], url: 'https://d8hdjyf0a203v.cloudfront.net/', glow: '#123f3b'
+    tags: ['Kotlin', 'AWS', 'Android', 'React'], icons: [{ label: 'Kotlin', path: 'kotlin/kotlin-original.svg' }, { label: 'AWS', path: 'amazonwebservices/amazonwebservices-plain-wordmark.svg' }, { label: 'Android', path: 'android/android-original.svg' }, { label: 'React', path: 'react/react-original.svg' }], url: 'https://chennaihoopers.com/', glow: '#123f3b'
   },
   {
     code: '03 / RESEARCH', title: 'Medical Sharing', desc: 'A published research project for secure medical-record sharing using a blockchain architecture.',
